@@ -14,49 +14,53 @@ I have subsetted the data to included all variables showing a mean or standard d
 
 _Triaxial variables have been grouped together to shorten the list_
 
-* subject - Subject ID numbers from 1 through 30
-* activity - 6 possibilities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-* tBodyAcc-mean()-X, tBodyAcc-mean()-Y, tBodyAcc-mean()-Z
-* tBodyAcc-std()-X, tBodyAcc-std()-Y, tBodyAcc-std()-Z
-* tGravityAcc-mean()-X, tGravityAcc-mean()-Y, tGravityAcc-mean()-Z
-* tGravityAcc-std()-X, tGravityAcc-std()-Y, tGravityAcc-std()-Z            
-* tBodyAccJerk-mean()-X, tBodyAccJerk-mean()-Y, tBodyAccJerk-mean()-Z
-* tBodyAccJerk-std()-X, tBodyAccJerk-std()-Y, tBodyAccJerk-std()-Z
-* tBodyGyro-mean()-X, tBodyGyro-mean()-Y, tBodyGyro-mean()-Z
-* tBodyGyro-std()-X, tBodyGyro-std()-Y, tBodyGyro-std()-Z              
-* tBodyGyroJerk-mean()-X, tBodyGyroJerk-mean()-Y, tBodyGyroJerk-mean()-Z
-* tBodyGyroJerk-std()-X, tBodyGyroJerk-std()-Y, tBodyGyroJerk-std()-Z
-* tBodyAccMag-mean()
-* tBodyAccMag-std()
-* tGravityAccMag-mean()
-* tGravityAccMag-std()
-* tBodyAccJerkMag-mean()
-* tBodyAccJerkMag-std()          
-* tBodyGyroMag-mean()
-* tBodyGyroMag-std()
-* tBodyGyroJerkMag-mean()
-* tBodyGyroJerkMag-std()         
-* fBodyAcc-mean()-X, fBodyAcc-mean()-Y, fBodyAcc-mean()-Z
-* fBodyAcc-std()-X, fBodyAcc-std()-Y, fBodyAcc-std()-Z
-* fBodyAcc-meanFreq()-X, fBodyAcc-meanFreq()-Y, fBodyAcc-meanFreq()-Z
-* fBodyAccJerk-mean()-X, fBodyAccJerk-mean()-Y, fBodyAccJerk-mean()-Z          
-* fBodyAccJerk-std()-X, fBodyAccJerk-std()-Y, fBodyAccJerk-std()-Z
-* fBodyAccJerk-meanFreq()-X, fBodyAccJerk-meanFreq()-Y, fBodyAccJerk-meanFreq()-Z
-* fBodyGyro-mean()-X, fBodyGyro-mean()-Y, fBodyGyro-mean()-Z
-* fBodyGyro-std()-X, fBodyGyro-std()-Y, fBodyGyro-std()-Z              
-* fBodyGyro-meanFreq()-X, fBodyGyro-meanFreq()-Y, fBodyGyro-meanFreq()-Z
-* fBodyAccMag-mean()            
-* fBodyAccMag-std()
-* fBodyAccMag-meanFreq()
-* fBodyBodyAccJerkMag-mean()
-* fBodyBodyAccJerkMag-std()      
-* fBodyBodyAccJerkMag-meanFreq()
-* fBodyBodyGyroMag-mean()
-* fBodyBodyGyroMag-std()
-* fBodyBodyGyroMag-meanFreq()    
-* fBodyBodyGyroJerkMag-mean()
-* fBodyBodyGyroJerkMag-std()
-* fBodyBodyGyroJerkMag-meanFreq()
+* "subject" - Subject ID numbers from 1 through 30
+* "activity" - 6 possibilities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING                                    
+* "TimeBodyAccelerometer-mean()-X", "TimeBodyAccelerometer-mean()-Y", "TimeBodyAccelerometer-mean()-Z"
+* TimeBodyAccelerometer-std()-X", "TimeBodyAccelerometer-std()-Y", "TimeBodyAccelerometer-std()-Z"                 
+* "TimeGravityAccelerometer-mean()-X", "TimeGravityAccelerometer-mean()-Y", "TimeGravityAccelerometer-mean()-Z"
+* "TimeGravityAccelerometer-std()-X", "TimeGravityAccelerometer-std()-Y", "TimeGravityAccelerometer-std()-Z"              
+* "TimeBodyAccelerometerJerk-mean()-X", "TimeBodyAccelerometerJerk-mean()-Y", "TimeBodyAccelerometerJerk-mean()-Z"
+* "TimeBodyAccelerometerJerk-std()-X", "TimeBodyAccelerometerJerk-std()-Y", "TimeBodyAccelerometerJerk-std()-Z"             
+* "TimeBodyGyroscope-mean()-X", "TimeBodyGyroscope-mean()-Y", "TimeBodyGyroscope-mean()-Z"
+* "TimeBodyGyroscope-std()-X", "TimeBodyGyroscope-std()-Y", "TimeBodyGyroscope-std()-Z"                     
+* "TimeBodyGyroscopeJerk-mean()-X", "TimeBodyGyroscopeJerk-mean()-Y", "TimeBodyGyroscopeJerk-mean()-Z"
+* "TimeBodyGyroscopeJerk-std()-X", "TimeBodyGyroscopeJerk-std()-Y", "TimeBodyGyroscopeJerk-std()-Z"                 
+* "TimeBodyAccelerometerMagnitude-mean()"
+* "TimeBodyAccelerometerMagnitude-std()"          
+* "TimeGravityAccelerometerMagnitude-mean()"
+* "TimeGravityAccelerometerMagnitude-std()"       
+* "TimeBodyAccelerometerJerkMagnitude-mean()"
+* "TimeBodyAccelerometerJerkMagnitude-std()"      
+* "TimeBodyGyroscopeMagnitude-mean()"
+* "TimeBodyGyroscopeMagnitude-std()"              
+* "TimeBodyGyroscopeJerkMagnitude-mean()"
+* "TimeBodyGyroscopeJerkMagnitude-std()"          
+* "FrequencyBodyAccelerometer-mean()-X", "FrequencyBodyAccelerometer-mean()-Y", "FrequencyBodyAccelerometer-mean()-Z"
+* "FrequencyBodyAccelerometer-std()-X", "FrequencyBodyAccelerometer-std()-Y", "FrequencyBodyAccelerometer-std()-Z"            
+* "FrequencyBodyAccelerometerJerk-mean()-X", "FrequencyBodyAccelerometerJerk-mean()-Y", "FrequencyBodyAccelerometerJerk-mean()-Z"
+* "FrequencyBodyAccelerometerJerk-std()-X", "FrequencyBodyAccelerometerJerk-std()-Y", "FrequencyBodyAccelerometerJerk-std()-Z"        
+* "FrequencyBodyGyroscope-mean()-X", "FrequencyBodyGyroscope-mean()-Y", "FrequencyBodyGyroscope-mean()-Z"
+* "FrequencyBodyGyroscope-std()-X", "FrequencyBodyGyroscope-std()-Y", "FrequencyBodyGyroscope-std()-Z"                
+* "FrequencyBodyAccelerometerMagnitude-mean()"
+* "FrequencyBodyAccelerometerMagnitude-std()"     
+* "FrequencyBodyAccelerometerJerkMagnitude-mean()"
+* "FrequencyBodyAccelerometerJerkMagnitude-std()" 
+* "FrequencyBodyGyroscopeMagnitude-mean()"
+* "FrequencyBodyGyroscopeMagnitude-std()"         
+* "FrequencyBodyGyroscopeJerkMagnitude-mean()"
+* "FrequencyBodyGyroscopeJerkMagnitude-std()"     
+
+What Happens When I Run run_analysis.R?
+---------------
+* The script downloads a zip from [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* It then unzips it to your working directory.
+* Text files in the unzipped folder are read into memory.
+* Everything is combined together into one dataset.
+* Only the columns containing mean() or std() in their labels are kept.
+* Activity is changed from integers to descriptive names.
+* Each label is renamed to be more descriptive.
+* tidydata.txt is output to the working directory as a result.
 
 
 Resulting File
