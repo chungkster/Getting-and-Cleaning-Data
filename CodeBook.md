@@ -65,8 +65,4 @@ What Happens When I Run run_analysis.R?
 
 Resulting File
 ---------------
-A file called tidy.txt will be created and saved in the working directory upon running run_analysis.R
-
-About the Code Book
--------------------
-The CodeBook.md file explains the transformations performed and the resulting data and variables.
+A file called tidydata.txt will be created and saved in the working directory upon running run_analysis.R
