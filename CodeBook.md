@@ -53,8 +53,8 @@ _Triaxial variables have been grouped together to shorten the list_
 
 What Happens When I Run run_analysis.R?
 ---------------
-* The script downloads a zip from [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-* It then unzips it to your working directory.
+* The script downloads a zip from [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and saved as data.zip in your working directory.
+* It then unzips the contents to your working directory. You will end up with a folder called "UCI HAR Dataset."
 * Text files in the unzipped folder are read into memory.
 * Everything is combined together into one dataset.
 * Only the columns containing mean() or std() in their labels are kept.
